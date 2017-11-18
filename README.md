@@ -1,5 +1,5 @@
 # Grafana Dashboards
-Interactive & Dynamic Grafana Dashboards
+Interactive & Dynamic 💕 Grafana Dashboards
 
 ## Gitlab
 
