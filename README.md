@@ -12,3 +12,9 @@ Interactive & Dynamic 💕 Grafana Dashboards
 <p align="center">
   <img src="swarm/dashboard.png" width="70%">
 </p>
+
+## MySQL
+
+<p align="center">
+  <img src="mysql/dashboard.png" width="70%">
+</p>
