@@ -1,3 +1,3 @@
 ## How to setup
 
-* [GitLab Performance Monitoring with Grafana](http://www.blog.labouardy.com/gitlab-performance-monitoring-with-grafana/)
+* [MySQL Monitoring with Telegraf, InfluxDB & Grafana](http://www.blog.labouardy.com/mysql-monitoring-telegraf-influxdb-grafana/)
