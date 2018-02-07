@@ -18,3 +18,9 @@ Interactive & Dynamic 💕 Grafana Dashboards
 <p align="center">
   <img src="mysql/dashboard.png" width="70%">
 </p>
+
+## Icinga2
+
+<p align="center">
+  <img src="icinga2/dashboard.png" width="70%">
+</p>
