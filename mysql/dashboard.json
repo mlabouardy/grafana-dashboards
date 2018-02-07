@@ -1053,7 +1053,7 @@
               "measurement": "mysql_mysql",
               "orderByTime": "ASC",
               "policy": "default",
-              "query": "SELECT derivative(mean(\"bytes_received\"), 1s)*8 FROM \"mysql_mysql\" WHERE (\"server\" = '10.100.248.44:3306') AND $timeFilter GROUP BY time($__interval) fill(null)",
+              "query": "SELECT derivative(mean(\"bytes_received\"), 1s)*8 FROM \"mysql_mysql\" WHERE (\"server\" = '/^$Server$/') AND $timeFilter GROUP BY time($__interval) fill(null)",
               "rawQuery": true,
               "refId": "A",
               "resultFormat": "time_series",
@@ -1081,7 +1081,7 @@
                 {
                   "key": "server",
                   "operator": "=",
-                  "value": "10.100.248.44:3306"
+                  "value": "/^$Server$/"
                 }
               ]
             },
@@ -1105,7 +1105,7 @@
               "measurement": "mysql_mysql",
               "orderByTime": "ASC",
               "policy": "default",
-              "query": "SELECT derivative(mean(\"bytes_sent\"), 1s)*8 FROM \"mysql_mysql\" WHERE (\"server\" = '10.100.248.44:3306') AND $timeFilter GROUP BY time($__interval) fill(null)",
+              "query": "SELECT derivative(mean(\"bytes_sent\"), 1s)*8 FROM \"mysql_mysql\" WHERE (\"server\" = '/^$Server$/') AND $timeFilter GROUP BY time($__interval) fill(null)",
               "rawQuery": true,
               "refId": "B",
               "resultFormat": "time_series",
@@ -1133,7 +1133,7 @@
                 {
                   "key": "server",
                   "operator": "=",
-                  "value": "10.100.248.44:3306"
+                  "value": "/^$Server$/"
                 }
               ]
             }
