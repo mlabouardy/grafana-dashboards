@@ -30,3 +30,9 @@ Interactive & Dynamic 💕 Grafana Dashboards
 <p align="center">
   <img src="ec2/dashboard.png" width="70%">
 </p>
+
+## Jenkins
+
+<p align="center">
+  <img src="jenkins/dashboard.png" width="70%">
+</p>
